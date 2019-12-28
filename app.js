@@ -11,7 +11,7 @@ particlesJS('particles-js', {
   particles: {
     color: '#fff',
     color_random: false,
-    shape: 'circle', // "circle", "edge" or "triangle"
+    shape: 'edge', // "circle", "edge" or "triangle"
     opacity: {
       opacity: 1,
       anim: {
