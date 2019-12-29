@@ -173,3 +173,32 @@ header nav ul li a:hover {
     color: 
     #96cd6f;
 }
+
+#hacknews {
+	background: #96cd6f;
+}
+
+.hacking a {
+	text-decoration:none;
+	color: #96cd6f;
+}
+
+.hacknews a {
+	text-decoration: none;
+	color: #638aaa;
+}
+
+.blog a {
+	text-decoration: none;
+	color: #f77a7a;
+}
+
+#readme {
+	text-decoration: none;
+	color: black;
+}
+
+#readme strong {
+	text-decoration: none;
+	color: black;
+}
