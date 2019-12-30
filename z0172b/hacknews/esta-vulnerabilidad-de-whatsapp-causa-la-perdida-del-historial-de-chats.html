@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../../style.css">
+    <title>Z0172CK</title>
+</head>
+<body>
+    <div id="particles-js"></div>
+
+    <header>
+        <div class="menu">
+            <div class="contenedor">
+                <div class="logo">Z0172CK-HackNews</div>
+                <nav>
+                    <ul>
+                        <li><a href="../../index.html">Inicio</a></li>
+                        <li><a href="../blog.html">Blog</a></li>
+                        <li><a href="../../z0172h/hacking.html">Hacking</a></li>
+                        <li><a href="../../apoyame.html">Apoyame</a></li>
+                        <li><a href="hacknews.html" id="hacknews">HackNews</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <div class="texto">
+        <h2>
+            Esta vulnerabilidad de WhatsApp causa la pérdida del historial de chats
+        </h2>
+
+        <br>
+
+        <p>
+            Z0172CK-HackNews
+        </p>
+    </div>
+
+    <div class="principal contenedor">
+        <article>
+            <h2 class="titulo">
+                Esta vulnerabilidad de WhatsApp causa la pérdida del historial de chats
+            </h2>
+
+            <p class="fecha">28 Diciembre 2019</p>
+
+            <p>
+                Los investigadores de seguridad encontraron un error en WhatsApp. 
+                Este podría usarse para <strong>bloquear la aplicación de mensajería</strong> en un bucle en el teléfono de cada miembro de un grupo.
+            </p>
+
+            <p>
+                El efecto podría obtenerse modificando el número de teléfono de un participante y enviando un mensaje. 
+                Como resultado, los miembros ya no podrán acceder al grupo o al historial de conversación.
+            </p>
+        </article>
+
+        <article>
+            <h2 class="titulo">Obteniendo las claves</h2>
+
+            <p>
+                El problema, solucionado con el lanzamiento de WhatsApp 2.19.246, radicaba en el protocolo XMPP 
+                (<em>Extensible Messaging and Presence Protocol</em>) responsable de la mensajería instantánea.
+            </p>
+
+            <p>
+                Utilizando una herramienta de su propia creación llamada 
+                <strong>WhatsApp Manipulation Tool</strong>, 
+                los investigadores de vulnerabilidad de Check Point pudieron modificar los parámetros que la aplicación 
+                necesita para entregar mensajes de manera coherente y obtener el 
+                <strong>resultado de la denegación de servicio</strong>.
+            </p>
+
+            <p>
+                Es importante tener en cuenta que esta investigación se basa en&nbsp;esfuerzos anteriores&nbsp;para 
+                vulnerar la entrega segura de mensajes de WhatsApp.&nbsp;Ese esfuerzo resultó en la capacidad de 
+                <strong>interceptar y manipular</strong> mensajes enviados en privado o en grupos.
+            </p>
+
+            <p>
+                La técnica de Check Point implica la participación de un miembro del grupo. 
+                Por su parte, la<strong> obtención de las claves de cifrado</strong> que se generan 
+                durante el proceso de inicio de sesión.
+            </p>
+
+            <p>
+                Utilizando el escáner de vulnerabilidades web Burp Suite, 
+                interceptaron el tráfico de WhatsApp que contiene el parámetro “secret”. 
+                Este contiene los datos necesarios para modificar los detalles que conducen al bloqueo continuo.
+            </p>
+
+            <h2 class="titulo">Caracteres no permitidos</h2>
+
+            <p>
+                Con las claves de cifrado y descifrado, y el parámetro “secret” en la mano, 
+                los investigadores podrían enviar los mensajes en texto plano a la herramienta de manipulación.
+            </p>
+
+            <p>
+                En un&nbsp;
+                <a class="datai" href="https://research.checkpoint.com/2019/breakingapp-whatsapp-crash-data-loss-bug/" target="_blank" rel="noopener noreferrer">informe</a>&nbsp;
+                publicado hoy, Check Point explica que se registra un bloqueo cada vez que se entrega un mensaje a un parámetro “participant” que tiene un valor “null”.
+            </p>
+
+            <p>
+                <img src="https://hackwise.mx/wp-content/uploads/2019/12/WhatsApp-null.png" alt="" class="aligncenter size-full wp-image-37478" width="707" height="166">
+            </p>
+
+            <p>
+                Esto puede suceder cuando el analizador del número de teléfono del participante administra mal la entrada, como en el caso de una cadena sin dígitos.
+            </p>
+
+            <blockquote>
+                <p>
+                    “En un escenario típico, cuando un usuario en un grupo de WhatsApp envía un 
+                    mensaje al grupo, la aplicación examinará el parámetro 
+                    <em>participante </em>para identificar quién envió el mensaje. 
+                    Al usar nuestra herramienta pudimos acceder a este parámetro y editarlo” – Afirma Check Point.
+                </p>
+            </blockquote>
+
+            <p>
+                Por lo tanto, alcanzar el objetivo de bloqueo se volvió bastante simple: reemplazar el número de teléfono del remitente por cualquier caracter que no sea un dígito.
+            </p>
+
+            <p>
+                <img src="https://hackwise.mx/wp-content/uploads/2019/12/WhatsApp-phone.png" alt="" class="aligncenter size-full wp-image-37479" width="960" height="423">
+            </p>
+
+            <p>
+                En este punto, cualquier mensaje del
+                <em> participante</em> 
+                atacante provocaría que 
+                <strong>WhatsApp se bloquee en un bucle</strong>.&nbsp;El efecto se replicaría cada vez que la aplicación de mensajería intente leer los detalles del remitente.
+            </p>
+
+            <h2 class="titulo">Consecuencias</h2>
+
+            <p>
+                La detención del efecto de bloqueo solo es posible reinstalando la aplicación y eliminando el grupo.&nbsp;Como consecuencia, 
+                <strong>se pierde todo el historial</strong> de conversación adjunto.
+            </p>
+
+            <p>
+                <img src="https://hackwise.mx/wp-content/uploads/2019/12/WhatsApp-Boom.png" alt="" class="aligncenter size-full wp-image-37480" width="960" height="602">
+            </p>
+
+            <p>
+                WhatsApp se usa no solo casualmente para chatear de manera amigable.&nbsp;Algunos usuarios confían en él como el principal servicio de comunicación para asuntos relacionados con el trabajo.
+            </p>
+
+            <p>
+                Los investigadores sostienen que el resultado de explotar una vulnerabilidad de este tipo es drástico para los grupos que comparten información valiosa.
+            </p>
+
+            <p>
+                Check Point ha publicado un video que muestra cómo un atacante podría haber destruido los chats grupales:
+            </p>
+
+            <!--Falta Video-->
+
+            <p>
+                Descubierta en agosto, la vulnerabilidad se divulgó de manera responsable a WhatsApp y se corrigió en las versiones de la aplicación a partir de la 2.19.246.
+            </p>
+
+        </article>
+    </div>
+
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+
+    <script src="../../particles.js"></script>
+    <script src="../../app.js"></script>
+    
+</body>
+</html>
