@@ -806,4 +806,516 @@ button {
     -ms-flex-align: center;
     align-items: center;
 }
+ /*National Geographic Incendio Forestal Australia*/
 
+ .ngart-hl__title {
+    font-family: GeoEditBold,sans-serif;
+    font-weight: 400;
+    font-size: 2.625rem;
+    letter-spacing: .3px;
+    line-height: 1.143;
+}
+.ngart-hl__title {
+    font-family: GeoEditBold,sans-serif;
+    font-weight: 400;
+    font-size: 2.125rem;
+    letter-spacing: .3px;
+    line-height: 1.5;
+    margin: 9px 0 4px;
+}
+.ngart-hl__title {
+    font-family: GeoEditBold,sans-serif;
+    font-weight: 400;
+    font-size: 1.875rem;
+    letter-spacing: .3px;
+    line-height: 1.5;
+    color: 
+    #000;
+    margin: 15px 0 5px;
+}
+.ngart-hl__title {
+    font-family: GeoEditBold,sans-serif;
+    font-weight: 400;
+    font-size: 2.625rem;
+    letter-spacing: .3px;
+    line-height: 1.143;
+}
+.ngart-hl__title {
+    font-family: GeoEditBold,sans-serif;
+    font-weight: 400;
+    font-size: 2.125rem;
+    letter-spacing: .3px;
+    line-height: 1.5;
+    margin: 9px 0 4px;
+}
+.ngart-hl__title {
+    font-family: GeoEditBold,sans-serif;
+    font-weight: 400;
+    font-size: 1.875rem;
+    letter-spacing: .3px;
+    line-height: 1.5;
+    color: #000;
+    margin: 15px 0 5px;
+}
+
+ .ngart-hl__deck {
+    font-size: .9375rem;
+    line-height: 1.75rem;
+}
+.ngart-hl__deck {
+    font-family: GeoEditRegular,sans-serif;
+    font-weight: 400;
+    font-size: .875rem;
+    letter-spacing: .1px;
+    line-height: 1.5;
+    color: 
+    #555;
+    display: inline-block;
+}
+
+.ngart-hl__text {
+    padding-right: 30px;
+}
+.ngart-hl__text {
+    display: initial;
+    font-size: .875rem;
+    line-height: 1.625rem;
+}
+.ngart-hl__text {
+    font-family: GeoEditRegular,sans-serif;
+    font-weight: 400;
+    font-size: .875rem;
+    letter-spacing: .1px;
+    line-height: 1.5;
+    color: 
+    #555;
+    padding-right: 30px;
+    margin-bottom: 15px;
+    display: block;
+    width: 100%;
+    font-weight: 400;
+}
+
+.ngart-hl__date {
+    font-size: .875rem;
+    line-height: 1.625rem;
+    padding-left: 30px;
+    margin-left: 0;
+}
+.ngart-hl__date {
+    font-size: .875rem;
+    line-height: 1.625rem;
+    margin-left: 0;
+    padding-left: 25px;
+}
+.ngart-hl__date {
+    font-family: GeoEditRegular,sans-serif;
+    font-weight: 400;
+    font-size: .875rem;
+    letter-spacing: .1px;
+    line-height: 1.5;
+    color: 
+#999;
+display: block;
+width: 100%;
+border-left: 1px solid
+    #999;
+    padding-left: 15px;
+    margin: 10px 0 30px;
+        margin-left: 0px;
+    clear: both;
+    width: auto;
+}
+
+/**/
+
+.ngart-img--large {
+    margin-bottom: 35px;
+}
+.ngart-img--large {
+    float: none;
+    max-width: 1600px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+}
+.ngart-img--large {
+    margin-bottom: 23px;
+    width: 100%;
+    clear: both;
+}
+.ngart-img {
+    background: 
+#fff;
+margin-bottom: 30px;
+}
+
+/*Image Incendio*/
+
+.ngart-img:hover {
+    cursor: pointer;
+}
+.ngart-img--large {
+    margin-bottom: 35px;
+}
+.ngart-img--large {
+    float: none;
+    max-width: 1600px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+}
+.ngart-img--large {
+    margin-bottom: 23px;
+    width: 100%;
+    clear: both;
+}
+.ngart-img {
+    background: 
+    #fff;
+    margin-bottom: 30px;
+}
+.ngart-img--large {
+    margin-bottom: 35px;
+}
+.ngart-img--large {
+    float: none;
+    max-width: 1600px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+}
+.ngart-img--large {
+    margin-bottom: 23px;
+    width: 100%;
+    clear: both;
+}
+.ngart-img {
+    background: #fff;
+    margin-bottom: 30px;
+}
+
+.ngart-img--large .ngart-img__cntr {
+    display: block;
+    overflow: hidden;
+    margin-left: 0;
+    margin-right: 0;
+}
+.ngart-img--large .ngart-img__cntr {
+    display: block;
+    overflow: hidden;
+    margin-left: 0;
+    margin-right: 0;
+}
+.ngart-img__cntr {
+    position: relative;
+    font-size: 0;
+}
+.ngart-img__cntr {
+    position: relative;
+    font-size: 0;
+}
+
+.resp-img-cntr {
+    display: block;
+    width: 100%;
+    position: relative;
+    height: 0;
+    overflow: hidden;
+    background: 
+    rgba(179,179,179,.4) url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA4NC40MyAxMjAuOTgiPjxkZWZzPjwvZGVmcz48cGF0aCBzdHlsZT0iZmlsbDojZmMwOyIgZD0iTTAsMTIxVjBIODQuNDNWMTIxSDBaTTcyLjIyLDEwOC44VjEyLjE4SDEyLjE3VjEwOC44SDcyLjIyWiIvPjwvc3ZnPgo=) no-repeat center center;
+        background-size: auto;
+    background-size: 40px 58px;
+}
+.resp-img-cntr {
+    display: block;
+    width: 100%;
+    position: relative;
+    height: 0;
+    overflow: hidden;
+    background: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA4NC40MyAxMjAuOTgiPjxkZWZzPjwvZGVmcz48cGF0aCBzdHlsZT0iZmlsbDojZmMwOyIgZD0iTTAsMTIxVjBIODQuNDNWMTIxSDBaTTcyLjIyLDEwOC44VjEyLjE4SDEyLjE3VjEwOC44SDcyLjIyWiIvPjwvc3ZnPgo=) center center no-repeat rgba(179,179,179,.4);
+    background-size: 40px 58px;
+}
+
+.ngart-img--large .ngart-img__cntr img {
+    margin: 0 auto;
+        margin-top: 0px;
+    display: block;
+    width: 100%;
+}
+.ngart-img--large .ngart-img__cntr img {
+    margin: 0 auto;
+    display: block;
+    width: 100%;
+}
+.resp-img-cntr img {
+    display: block;
+    width: 100%;
+    height: auto;
+    -webkit-animation: fadein 1s;
+    animation: fadein 1s;
+}
+.resp-img-cntr img {
+    display: block;
+    width: 100%;
+    height: auto;
+    -webkit-animation: 1s fadein;
+    animation: 1s fadein;
+}
+
+.ngart-img--large .ngart-img__cont {
+    margin: 11px auto 0;
+    max-width: 1160px;
+}
+.ngart-img--large .ngart-img__cont {
+    padding-left: 40px;
+    margin: 10px 0 0;
+    width: 100%;
+}
+.ngart-img--large .ngart-img__cont {
+    margin: 11px 0;
+}
+.ngart-img--large .ngart-img__cont {
+    padding-left: 35px;
+    margin: 20px 30px 0 0;
+}
+.ngart-img--large .ngart-img__cont {
+    margin: 11px 0;
+}
+.ngart-img--large .ngart-img__cont {
+    padding-left: 35px;
+    margin: 10px 80px 31px 0;
+}
+.ngart-img--large .ngart-img__cont {
+    padding-left: 30px;
+    position: relative;
+    margin: 11px 0;
+}
+.ngart-img--large .ngart-img__cont {
+    margin: 11px auto 0;
+    max-width: 1160px;
+}
+.ngart-img--large .ngart-img__cont {
+    padding-left: 40px;
+    margin: 10px 0 0;
+    width: 100%;
+}
+.ngart-img--large .ngart-img__cont {
+    margin: 11px 0;
+}
+.ngart-img--large .ngart-img__cont {
+    padding-left: 35px;
+    margin: 20px 30px 0 0;
+}
+.ngart-img--large .ngart-img__cont {
+    margin: 11px 0;
+}
+.ngart-img--large .ngart-img__cont {
+    padding-left: 35px;
+    margin: 10px 80px 31px 0;
+}
+.ngart-img--large .ngart-img__cont {
+    padding-left: 30px;
+    position: relative;
+    margin: 11px 0;
+}
+.ngart-img__cont {
+    width: 100%;
+}
+.ngart-img__cont {
+    font-family: GeoEditRegular,sans-serif;
+    font-weight: 400;
+    font-size: .875rem;
+    letter-spacing: .1px;
+    line-height: 1.5;
+    line-height: 20px;
+    color: 
+#333;
+border-left: 1px solid
+    #555;
+    max-width: 100%;
+    position: relative;
+}
+.ngart-img__cont {
+    width: 100%;
+}
+.ngart-img__cont {
+    font-family: GeoEditRegular,sans-serif;
+    font-weight: 400;
+    font-size: .875rem;
+    letter-spacing: .1px;
+    line-height: 1.5;
+    line-height: 20px;
+    color: #333;
+    border-left: 1px solid #555;
+    max-width: 100%;
+    position: relative;
+}
+
+/*22*/
+
+.ngart__cont {
+    position: relative;
+    width: 100%;
+}
+.ngart__cont {
+    position: relative;
+    width: 100%;
+}
+
+.ngart .gr-wrap {
+    padding: 0;
+    width: 100%;
+    max-width: 1160px;
+    margin: 0 auto;
+}
+.ngart .ngart__group {
+    -js-display: flex;
+    display: flex;
+}
+.ngart .gr-wrap {
+    margin: 0 90px;
+}
+.ngart .gr-wrap {
+    padding: 0;
+    width: 100%;
+    max-width: 1160px;
+    margin: 0 auto;
+}
+.ngart .gr-wrap {
+    margin: 0 90px;
+}
+.ngart .ngart__group {
+    -js-display: flex;
+    display: flex;
+}
+.ngart .gr-wrap {
+    margin: 0 90px;
+}
+.gr-wrap {
+    max-width: 1600px;
+    padding: 0 60px;
+    margin: 0 auto;
+}
+.gr-wrap {
+    max-width: none;
+    margin: 0 60px;
+}
+.gr-wrap {
+    margin: 0 40px;
+}
+.gr-wrap {
+    max-width: 68em;
+    margin-left: auto;
+    margin-right: auto;
+    margin: 0 30px;
+}
+.gr-wrap {
+    max-width: 1600px;
+    padding: 0 60px;
+    margin: 0 auto;
+}
+.gr-wrap {
+    max-width: none;
+    margin: 0 60px;
+}
+.gr-wrap {
+    margin: 0 40px;
+}
+.gr-wrap {
+    max-width: 68em;
+    margin-left: auto;
+    margin-right: auto;
+    margin: 0 30px;
+}
+
+.ngart__main-col {
+    width: calc(100% - 320px);
+    padding-right: 50px;
+    float: left;
+    flex: 0 1 auto;
+}
+.ngart__main-col {
+    display: inline-block;
+}
+.ngart__main-col {
+    width: 100%;
+    display: inline-block;
+}
+.ngart__main-col {
+    width: calc(100% - 320px);
+    padding-right: 50px;
+    float: left;
+    flex: 0 1 auto;
+}
+.ngart__main-col {
+    display: inline-block;
+}
+.ngart__main-col {
+    width: 100%;
+    display: inline-block;
+}
+
+.ngart__main-col .paragraph, .ngart__main-col p {
+    margin-bottom: 30px;
+}
+.ngart__main-col .paragraph, .ngart__main-col p {
+    margin-bottom: 30px;
+}
+
+.ngart-img--art_main_col, .ngart-img--medium {
+    max-width: 760px;
+    display: block;
+}
+.ngart-img {
+    background: 
+    #fff;
+    margin-bottom: 30px;
+}
+.ngart-img {
+    background: #fff;
+    margin-bottom: 30px;
+}
+
+.ngart__main-col .paragraph, .ngart__main-col p {
+    margin-bottom: 30px;
+}
+.ngart__main-col .paragraph, .ngart__main-col p {
+    margin-bottom: 30px;
+}
+
+.ngart__main-col .paragraph, .ngart__main-col p {
+    margin-bottom: 30px;
+}
+.ngart__main-col blockquote, .ngart__main-col p {
+    margin-bottom: 30px;
+    color: 
+    #333;
+}
+.copy-one, .ngart__main-col blockquote, .ngart__main-col p, .ngbs__text {
+    font-family: Georgia,Times,'Times New Roman',serif;
+    font-size: 1.1875rem;
+    line-height: 1.9375rem;
+    letter-spacing: normal;
+}
+.copy-five, .copy-four, .copy-one, .copy-three, .copy-two, .lr-pack .right-col .card--medium .card__deck, .ngart__main-col blockquote, .ngart__main-col p, .ngbs__text {
+    font-family: GeoEditRegular,sans-serif;
+    font-weight: 400;
+}
+.ngart__main-col .paragraph, .ngart__main-col p {
+    margin-bottom: 30px;
+}
+.ngart__main-col p {
+    margin-bottom: 30px;
+    color: #333;
+}
+.ngart__main-col p {
+    font-family: Georgia,Times,'Times New Roman',serif;
+    font-size: 1.1875rem;
+    line-height: 1.9375rem;
+    letter-spacing: normal;
+}
+.ngart__main-col p {
+    font-family: GeoEditRegular,sans-serif;
+    font-weight: 400;
+}
