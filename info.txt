@@ -1,0 +1,18 @@
+
+Hope you enjoy your new logo, here are the people that
+made your beautiful logo happen :)
+font name: Enigma__2
+font link: https://www.fontsquirrel.com/fonts/Enigmatic
+font author: Objets Dart
+font author site: http://www.objetsdart.ca
+Slogan Font: officecodepro-light.otf
+
+icon designer: Yaroslav Samoilov
+icon designer link: /Yaosamo
+        
+
+fontColor: {"gradient-0":"#288B58","gradient-1":"#475B4D"}
+bgColor: {"hex":"transparent"}
+iconColor: {"gradient-0":"#288B58","gradient-1":"#475B4D"}
+sloganColor: {"hex":"#000000"}
+      
