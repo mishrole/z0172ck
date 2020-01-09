@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../style.css">
+    <title>Z0172CK</title>
+</head>
+<body>
+    <div id="particles-js"></div>
+
+    <header>
+        <div class="menu">
+            <div class="contenedor">
+                <div class="logo">Z0172CK</div>
+                <nav>
+                    <ul>
+                        <li><a href="../index.html">Inicio</a></li>
+                        <li><a href="../z0172b/blog.html">Blog</a></li>
+                        <li><a href="hacking.html">Hacking</a></li>
+                        <li><a href="../apoyame.html">Apoyame</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+
+        <div class="submenu">
+            <div class="subcontenedor">
+                <nav>
+                    <ul id="sublist">
+                        <li><a href="">Windows</a></li>
+                        <li><a href="">Linux</a></li>
+                        <li><a href="../page/Android/android.html">Android</a></li>
+                        <li><a href="">Seguridad</a></li>
+                        <li><a href="">Web</a></li>
+                        <li><a href="hacking.html">Hacking</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <div class="texto">
+        <h2 class="post-title">
+            FBI: Facebook Information | Information gathering de perfiles
+        </h2>
+
+        <br>
+
+        <p>Z0172CK</p>
+    </div>
+
+    <div class="principal contenedor">
+        <article>
+            <p>
+                ¿Alguna vez&nbsp;quisiste hackear tu propia cuenta de Facebook? Pues este script en Python escrito por&nbsp;
+                <strong>xHak9x</strong> es lo más cercano a ello.
+            </p>
+
+            <p>
+                <strong>FBI (Facebook Information)</strong> 
+                es un herramienta de <strong>Information gathering</strong> precisa de una <strong>cuenta de Facebook</strong>.
+                &nbsp;Toda la información confidencial se puede recopilar fácilmente a pesar de que el objetivo/víctima convierta toda su privacidad a 
+                (solo para mí), información confidencial sobre residencia, 
+                <strong>fecha de nacimiento, ocupación, número de teléfono y dirección de correo electrónico</strong>.
+            </p>
+
+            <blockquote>
+                <p>
+                    No te engañaré, no vas a hackear facebook con esta herramienta!, PERO puedes obtener información 
+                    confidencial de tus contactos (amigos) y incluso usar un bot para dar likes o comentarios en automático…. ¿te interesa?…
+                </p>
+            </blockquote>
+
+            <div id="ez-toc-container" class="counter-hierarchy ez-toc-white">
+                <div class="ez-toc-title-container">
+                    <p class="ez-toc-title">Tabla de Contenido</p> 
+                    <span class="ez-toc-title-toggle">
+                        <a class="ez-toc-pull-right ez-toc-btn ez-toc-btn-xs ez-toc-btn-default ez-toc-toggle">
+                            <i class="ez-toc-glyphicon ez-toc-icon-toggle"></i>
+                        </a>
+                    </span>
+                </div> 
+
+                <nav>
+                    <ul class="ez-toc-list" style="display: block;">
+                        <li>
+                            <a href="#1_Instalacion_de_fbi" title="1. Instalación de&nbsp;fbi">1. Instalación de&nbsp;fbi</a>
+                        </li>
+
+                        <li>
+                            <a href="#2_Ejecucion_y_ayuda_de_comandos" title="2. Ejecución y ayuda de comandos">2. Ejecución y ayuda de comandos</a>
+                        </li>
+
+                        <li>
+                            <a href="#3_Hackeando_perfiles_de_Facebook" title="3. ‘Hackeando’ perfiles de Facebook">3. ‘Hackeando’ perfiles de Facebook</a>
+                        </li>
+
+                        <li>
+                            <a href="#4_Bots_de_auto_reacciones_y_auto_comentarios_en_Facebook" title="4. Bots de auto reacciones y auto comentarios en Facebook">4. Bots de auto reacciones y auto comentarios en Facebook</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+
+            <br>
+
+            <h2 class="titulo">
+                <span class="ez-toc-section" id="1_Instalacion_de_fbi">1. Instalación de&nbsp;fbi</span>
+            </h2>
+
+            <p></p>
+
+            <p>
+                El siguiente script escrito en Python solo requierer de ello (Python 2 exactamente), así que puedes utilizarlo en cualquier sistema operativo. Para este ejemplo, usaré mi Kali Linux.
+            </p>
+
+            <p></p>
+
+            <p>
+                Nos adueñamos de la herramienta ejecutando los siguientes comandos (incluye la instalación de requerimientos):  
+            </p>     
+            
+            <pre class="eckosc_syntax eckosc_syntax_theme_dark hljs sql">
+                <code>
+                    apt <span class="hljs-keyword">update</span> &amp;&amp; apt <span class="hljs-keyword">upgrade</span>
+                    apt <span class="hljs-keyword">install</span> git python2
+                    git <span class="hljs-keyword">clone</span> https://github.com/xHak9x/fbi.git
+                    cd fbi
+                    pip2 <span class="hljs-keyword">install</span> -r requirements.txt
+                </code>
+            </pre>
+
+            <p>
+                <img aria-describedby="caption-attachment-6126" class="size-full wp-image-6126     lazyloaded" src="https://esgeeks.com/wp-content/uploads/2019/05/Instalación-de-FBI-o-Facebook-Information.png" sizes="(max-width: 736px) 100vw, 736px" width="736" height="490">
+            </p>
+
+        </article>
+
+        <article>
+            <h2 class="titulo">
+                <span class="ez-toc-section" id="2_Ejecucion_y_ayuda_de_comandos">2. Ejecución y ayuda de comandos</span>
+            </h2>
+
+            <p></p>
+
+            <p>Para iniciar la herramienta, ejecutamos el siguiente comando:</p>
+
+            <pre class="eckosc_syntax eckosc_syntax_theme_dark hljs nginx">
+                <code>
+                    <span class="hljs-attribute">python2</span> fbi.py
+                </code>
+            </pre>
+
+            <div id="attachment_6127" style="width: 746px" class="wp-caption aligncenter">
+                <a href="https://esgeeks.com/wp-content/uploads/2019/05/Interfaz-de-la-herramienta-fbi.py_.png">
+                    <img aria-describedby="caption-attachment-6127" class="size-full wp-image-6127     lazyloaded" src="https://esgeeks.com/wp-content/uploads/2019/05/Interfaz-de-la-herramienta-fbi.py_.png" sizes="(max-width: 736px) 100vw, 736px" width="736" height="490">
+                    <noscript>
+                        <img aria-describedby="caption-attachment-6127" class="size-full wp-image-6127" src="https://esgeeks.com/wp-content/uploads/2019/05/Interfaz-de-la-herramienta-fbi.py_.png" alt="Interfaz de la herramienta fbi.py" width="736" height="490" sizes="(max-width: 736px) 100vw, 736px" />
+                    </noscript>
+                </a>
+
+                <p id="caption-attachment-6127" class="wp-caption-text">Interfaz de la herramienta fbi.py</p>
+            </div>
+
+            <p>
+                La descripción de&nbsp;<em>FBI [Facebook Informations</em>] en <a href="https://github.com/xHak9x/fbi" target="_blank" rel="noopener" style="color: rgb(87, 87, 250);">GitHub</a> no ayuda mucho, así que ejecutemos el comando <code>help</code> para ver todas las opciones posibles…
+            </p>
+
+            <div id="attachment_6128" style="width: 746px" class="wp-caption aligncenter">
+                <a href="https://esgeeks.com/wp-content/uploads/2019/05/Comando-help-de-fbi-Facebook-Informations.png">
+                    <img aria-describedby="caption-attachment-6128" class="size-full wp-image-6128     lazyloaded" src="https://esgeeks.com/wp-content/uploads/2019/05/Comando-help-de-fbi-Facebook-Informations.png" data-lazy-src="https://esgeeks.com/wp-content/uploads/2019/05/Comando-help-de-fbi-Facebook-Informations.png" alt="Comando help de fbi Facebook Informations" data-lazy-srcset="https://esgeeks.com/wp-content/uploads/2019/05/Comando-help-de-fbi-Facebook-Informations.png 736w, https://esgeeks.com/wp-content/uploads/2019/05/Comando-help-de-fbi-Facebook-Informations-300x200.png 300w, https://esgeeks.com/wp-content/uploads/2019/05/Comando-help-de-fbi-Facebook-Informations-680x453.png 680w, https://esgeeks.com/wp-content/uploads/2019/05/Comando-help-de-fbi-Facebook-Informations-500x333.png 500w, https://esgeeks.com/wp-content/uploads/2019/05/Comando-help-de-fbi-Facebook-Informations-400x266.png 400w, https://esgeeks.com/wp-content/uploads/2019/05/Comando-help-de-fbi-Facebook-Informations-250x166.png 250w, https://esgeeks.com/wp-content/uploads/2019/05/Comando-help-de-fbi-Facebook-Informations-200x133.png 200w, https://esgeeks.com/wp-content/uploads/2019/05/Comando-help-de-fbi-Facebook-Informations-100x67.png 100w, https://esgeeks.com/wp-content/uploads/2019/05/Comando-help-de-fbi-Facebook-Informations-76x51.png 76w, https://esgeeks.com/wp-content/uploads/2019/05/Comando-help-de-fbi-Facebook-Informations-50x33.png 50w, https://esgeeks.com/wp-content/uploads/2019/05/Comando-help-de-fbi-Facebook-Informations-272x182.png 272w" data-lazy-sizes="(max-width: 736px) 100vw, 736px" data-no-retina="true" srcset="https://esgeeks.com/wp-content/uploads/2019/05/Comando-help-de-fbi-Facebook-Informations.png 736w, https://esgeeks.com/wp-content/uploads/2019/05/Comando-help-de-fbi-Facebook-Informations-300x200.png 300w, https://esgeeks.com/wp-content/uploads/2019/05/Comando-help-de-fbi-Facebook-Informations-680x453.png 680w, https://esgeeks.com/wp-content/uploads/2019/05/Comando-help-de-fbi-Facebook-Informations-500x333.png 500w, https://esgeeks.com/wp-content/uploads/2019/05/Comando-help-de-fbi-Facebook-Informations-400x266.png 400w, https://esgeeks.com/wp-content/uploads/2019/05/Comando-help-de-fbi-Facebook-Informations-250x166.png 250w, https://esgeeks.com/wp-content/uploads/2019/05/Comando-help-de-fbi-Facebook-Informations-200x133.png 200w, https://esgeeks.com/wp-content/uploads/2019/05/Comando-help-de-fbi-Facebook-Informations-100x67.png 100w, https://esgeeks.com/wp-content/uploads/2019/05/Comando-help-de-fbi-Facebook-Informations-76x51.png 76w, https://esgeeks.com/wp-content/uploads/2019/05/Comando-help-de-fbi-Facebook-Informations-50x33.png 50w, https://esgeeks.com/wp-content/uploads/2019/05/Comando-help-de-fbi-Facebook-Informations-272x182.png 272w" sizes="(max-width: 736px) 100vw, 736px" width="736" height="490">
+
+                    <noscript>
+                        <img aria-describedby="caption-attachment-6128" class="size-full wp-image-6128" src="https://esgeeks.com/wp-content/uploads/2019/05/Comando-help-de-fbi-Facebook-Informations.png" alt="Comando help de fbi Facebook Informations" width="736" height="490" srcset="https://esgeeks.com/wp-content/uploads/2019/05/Comando-help-de-fbi-Facebook-Informations.png 736w, https://esgeeks.com/wp-content/uploads/2019/05/Comando-help-de-fbi-Facebook-Informations-300x200.png 300w, https://esgeeks.com/wp-content/uploads/2019/05/Comando-help-de-fbi-Facebook-Informations-680x453.png 680w, https://esgeeks.com/wp-content/uploads/2019/05/Comando-help-de-fbi-Facebook-Informations-500x333.png 500w, https://esgeeks.com/wp-content/uploads/2019/05/Comando-help-de-fbi-Facebook-Informations-400x266.png 400w, https://esgeeks.com/wp-content/uploads/2019/05/Comando-help-de-fbi-Facebook-Informations-250x166.png 250w, https://esgeeks.com/wp-content/uploads/2019/05/Comando-help-de-fbi-Facebook-Informations-200x133.png 200w, https://esgeeks.com/wp-content/uploads/2019/05/Comando-help-de-fbi-Facebook-Informations-100x67.png 100w, https://esgeeks.com/wp-content/uploads/2019/05/Comando-help-de-fbi-Facebook-Informations-76x51.png 76w, https://esgeeks.com/wp-content/uploads/2019/05/Comando-help-de-fbi-Facebook-Informations-50x33.png 50w, https://esgeeks.com/wp-content/uploads/2019/05/Comando-help-de-fbi-Facebook-Informations-272x182.png 272w" sizes="(max-width: 736px) 100vw, 736px" />
+                    </noscript>
+                </a>
+                <p id="caption-attachment-6128" class="wp-caption-text">Comando help de fbi Facebook Informations</p>
+            </div>
+
+        </article>
+
+        <article>
+            <h2 class="titulo">
+                <span class="ez-toc-section" id="3_Hackeando_perfiles_de_Facebook">3. ‘Hackeando’ perfiles de Facebook</span>
+            </h2>
+
+            <p></p>
+
+            <p>
+                Vale, antes que nada debemos iniciar sesión en la herramienta (a través del token). Colocamos el usuario y la contraseña y luego ejecutamos <code>get_data</code> para tener todos los datos de los perfiles amigos a nuestra disposición.
+            </p>
+
+            <pre class="eckosc_syntax eckosc_syntax_theme_dark hljs xml">
+                <code>token
+                <span class="hljs-tag">&lt;<span class="hljs-name">escribe_tu_usuario</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">escribe_tu_contraseña</span>&gt;</span>
+                get_data</code>
+            </pre>
+
+            <p></p>
+
+            <p>
+                Con el permiso concedido de un fan de nuestra página de Facebook , y con el módulo <code>get_info</code>, he podido conseguir la siguiente información de perfil:
+            </p>
+
+            <pre class="eckosc_syntax eckosc_syntax_theme_dark hljs xml">
+                <code>get_info
+                <span class="hljs-tag">&lt;<span class="hljs-name">escribe_ID_perfil_amigo</span>&gt;</span></code>
+            </pre>
+
+            <div id="attachment_6130" style="width: 746px" class="wp-caption aligncenter">
+                <a href="https://esgeeks.com/wp-content/uploads/2019/05/Obtener-Información-de-perfil-de-Facebook.png">
+                    <img aria-describedby="caption-attachment-6130" class="size-full wp-image-6130     lazyloaded" src="https://esgeeks.com/wp-content/uploads/2019/05/Obtener-Información-de-perfil-de-Facebook.png" data-lazy-src="https://esgeeks.com/wp-content/uploads/2019/05/Obtener-Información-de-perfil-de-Facebook.png" alt="Obtener Información de perfil de Facebook"sizes="(max-width: 736px) 100vw, 736px" width="736" height="490">
+
+                    <noscript>
+                        <img aria-describedby="caption-attachment-6130" class="size-full wp-image-6130" src="https://esgeeks.com/wp-content/uploads/2019/05/Obtener-Información-de-perfil-de-Facebook.png" alt="Obtener Información de perfil de Facebook" width="736" height="490" srcset="https://esgeeks.com/wp-content/uploads/2019/05/Obtener-Información-de-perfil-de-Facebook.png 736w, https://esgeeks.com/wp-content/uploads/2019/05/Obtener-Información-de-perfil-de-Facebook-300x200.png 300w, https://esgeeks.com/wp-content/uploads/2019/05/Obtener-Información-de-perfil-de-Facebook-680x453.png 680w, https://esgeeks.com/wp-content/uploads/2019/05/Obtener-Información-de-perfil-de-Facebook-500x333.png 500w, https://esgeeks.com/wp-content/uploads/2019/05/Obtener-Información-de-perfil-de-Facebook-400x266.png 400w, https://esgeeks.com/wp-content/uploads/2019/05/Obtener-Información-de-perfil-de-Facebook-250x166.png 250w, https://esgeeks.com/wp-content/uploads/2019/05/Obtener-Información-de-perfil-de-Facebook-200x133.png 200w, https://esgeeks.com/wp-content/uploads/2019/05/Obtener-Información-de-perfil-de-Facebook-100x67.png 100w, https://esgeeks.com/wp-content/uploads/2019/05/Obtener-Información-de-perfil-de-Facebook-76x51.png 76w, https://esgeeks.com/wp-content/uploads/2019/05/Obtener-Información-de-perfil-de-Facebook-50x33.png 50w, https://esgeeks.com/wp-content/uploads/2019/05/Obtener-Información-de-perfil-de-Facebook-272x182.png 272w" sizes="(max-width: 736px) 100vw, 736px" />
+                    </noscript>
+                </a>
+                <p id="caption-attachment-6130" class="wp-caption-text">Obtener Información de perfil de Facebook</p>
+            </div>
+
+            <p>
+                ¿Te empieza a gustar la herramienta? Ahora paso a utilizar los comandos <code>dump_phone</code> y <code>dump_mail</code> para traer a la pantalla los números de teléfonos y direcciones de correo electrónico de mis contactos:
+            </p>
+
+            <div id="attachment_6131" style="width: 746px" class="wp-caption aligncenter">
+                <a href="https://esgeeks.com/wp-content/uploads/2019/05/Hacking-números-de-teléfonos-de-perfiles-Facebook.png">
+                    <img aria-describedby="caption-attachment-6131" class="size-full wp-image-6131     lazyloaded" src="https://esgeeks.com/wp-content/uploads/2019/05/Hacking-números-de-teléfonos-de-perfiles-Facebook.png" data-lazy-src="https://esgeeks.com/wp-content/uploads/2019/05/Hacking-números-de-teléfonos-de-perfiles-Facebook.png" alt="Hacking números de teléfonos de perfiles Facebook" sizes="(max-width: 736px) 100vw, 736px" width="736" height="490">
+
+                    <noscript>
+                        <img aria-describedby="caption-attachment-6131" class="size-full wp-image-6131" src="https://esgeeks.com/wp-content/uploads/2019/05/Hacking-números-de-teléfonos-de-perfiles-Facebook.png" alt="Hacking números de teléfonos de perfiles Facebook" width="736" height="490" srcset="https://esgeeks.com/wp-content/uploads/2019/05/Hacking-números-de-teléfonos-de-perfiles-Facebook.png 736w, https://esgeeks.com/wp-content/uploads/2019/05/Hacking-números-de-teléfonos-de-perfiles-Facebook-300x200.png 300w, https://esgeeks.com/wp-content/uploads/2019/05/Hacking-números-de-teléfonos-de-perfiles-Facebook-680x453.png 680w, https://esgeeks.com/wp-content/uploads/2019/05/Hacking-números-de-teléfonos-de-perfiles-Facebook-500x333.png 500w, https://esgeeks.com/wp-content/uploads/2019/05/Hacking-números-de-teléfonos-de-perfiles-Facebook-400x266.png 400w, https://esgeeks.com/wp-content/uploads/2019/05/Hacking-números-de-teléfonos-de-perfiles-Facebook-250x166.png 250w, https://esgeeks.com/wp-content/uploads/2019/05/Hacking-números-de-teléfonos-de-perfiles-Facebook-200x133.png 200w, https://esgeeks.com/wp-content/uploads/2019/05/Hacking-números-de-teléfonos-de-perfiles-Facebook-100x67.png 100w, https://esgeeks.com/wp-content/uploads/2019/05/Hacking-números-de-teléfonos-de-perfiles-Facebook-76x51.png 76w, https://esgeeks.com/wp-content/uploads/2019/05/Hacking-números-de-teléfonos-de-perfiles-Facebook-50x33.png 50w, https://esgeeks.com/wp-content/uploads/2019/05/Hacking-números-de-teléfonos-de-perfiles-Facebook-272x182.png 272w" sizes="(max-width: 736px) 100vw, 736px" />
+                    </noscript>
+                </a>
+                <p id="caption-attachment-6131" class="wp-caption-text">Hacking números de teléfonos de perfiles Facebook</p>
+            </div>
+
+        </article>
+
+        <article>
+            <h2 class="titulo">
+                <span class="ez-toc-section" id="4_Bots_de_auto_reacciones_y_auto_comentarios_en_Facebook">4. Bots de auto reacciones y auto comentarios en Facebook</span>
+            </h2>
+
+            <p>
+                Las maravillas de esta herramienta aumentan con su menú de <strong>Bot</strong>. FBI puede conseguir que tu cuenta se convierta en un bot de dar reacciones y/o comentarios a publicaciones de tus amigos.
+            </p>
+
+            <center>
+                <p>
+                    <img src="https://esgeeks.com/wp-content/uploads/2019/05/Bot-en-Facebook-para-likes-comentarios-y-solicitudes.png" alt="">
+                </p>
+            </center>
+
+            <p>
+                Además, puedes <strong>aceptar todas las solicitudes pendientes de golpe, detener el following a todas las cuentas que sigues e incluso dejar tu perfil sin ninguna publicación</strong>!
+            </p>
+
+        </article>
+    </div>
+
+    <footer class="footer-blog">
+        <div class="wrapper">
+            <h2 class="footer-blog-title"> 
+                <a href="https://esgeeks.com/" itemprop="headline">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxzPcauVcGMgzGpN85KRZKGqwgwiGsJuEGAKJnBdiX3k_CHJZwpdxFzZGb-sKJpg&s" class="footer-blog-logo retina" alt="Erik172" width="150" height="150">
+                </a>
+
+            </h2>
+
+            <p class="footer-blog-description">Hacemos las cosas fáciles. Aprende con nosotros y siéntete apasionado por la tecnología e informática. Z0172CK</p>
+        </div> 
+    </footer>
+
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+    <script src="../particles.js"></script>
+    <script src="../app.js"></script>>
+
+</body>
+</html>
