@@ -138,6 +138,14 @@ header nav ul li a:hover {
     color:#757d86;
 }
 
+.post-list .post-image {
+    overflow: hidden;
+    max-width: 100%;
+    height: auto;
+    margin: 0 0 30px;
+    border-radius: 2px;
+}
+
 /*p {
 	color: #fff;
 }*/
