@@ -1,3 +1,7 @@
+@media screen and (min-width:300px) and (max-width:800px) {
+    body{font-size:0.8em;}
+    sidebar{display:none;}
+    }
 * {
 	padding:0;
 	margin:0;
@@ -5,6 +9,11 @@
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
 }
+
+img {
+
+    max-width: 100%;
+  }
 
 body {
 	font-family: oswald, helvetica, arial, sans-serif;
@@ -1326,4 +1335,116 @@ border-left: 1px solid
 .ngart__main-col p {
     font-family: GeoEditRegular,sans-serif;
     font-weight: 400;
+}
+
+/*******/
+
+.ul-cont {
+    margin: 35px 0 35px 7.5%;
+    font-size: 16px;
+    line-height: 30px;
+    position: relative;
+    margin: 25px 0;
+    color:#44494f;
+}
+
+.ul-cont li{
+    font-weight: 400;
+    margin-bottom: 20px;
+    padding-left: 2.5%;
+    color:#44494f;
+}
+
+/********/
+
+.post-contents .aligncenter, .post-contents img.aligncenter {
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+}
+.post-contents .wp-caption {
+    max-width: 96%;
+    padding: 5px 3px 10px;
+    text-align: center;
+    border: 1px solid 
+#f0f0f0;
+background:
+    #fff;
+}
+.post-contents .aligncenter {
+    margin: 45px auto;
+        margin-right: auto;
+        margin-left: auto;
+}
+.post-contents .aligncenter, div.aligncenter {
+    display: block;
+    margin: 5px auto;
+}
+
+/*****/
+
+.eckosc_status_message.eckosc_status_message_info {
+    border-color: 
+#a4cbd9;
+background:
+    #f0f4f9;
+}
+.eckosc_status_message {
+    margin: 50px 0;
+    padding: 35px;
+    border: 1px solid 
+    #d9d9d9;
+        border-top-color: rgb(217, 217, 217);
+        border-right-color: rgb(217, 217, 217);
+        border-bottom-color: rgb(217, 217, 217);
+        border-left-color: rgb(217, 217, 217);
+    border-radius: 2px;
+    background: #f9f9f9;
+}
+
+.eckosc_status_message.eckosc_status_message_info .eckosc_status_message_title h3 i {
+    color: 
+    #1d7cc6;
+}
+.eckosc_status_message .eckosc_status_message_title h3 i {
+    font-size: 28px;
+    margin: 0 30px 0 0;
+    vertical-align: -3px;
+    color: #a5a5a5;
+}
+.fa {
+    font: normal normal normal 14px/1 FontAwesome;
+        font-size: 14px;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+}
+.fa, .fa-stack {
+    display: inline-block;
+}
+.fa, body, html {
+    -moz-osx-font-smoothing: grayscale;
+}
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.fa-info-circle::before {
+    content: "\f05a";
+}
+.fa-info-circle::before {
+    content: "\f05a";
+}
+
+/*/***/
+
+.eckosc_syntax_theme_dark.hljs {
+    overflow-x: auto;
+    color: #bfd2db;
+background:#1a1e26;
 }
