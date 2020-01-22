@@ -1,0 +1,14 @@
+
+Hope you enjoy your new logo, here are the people that
+made your beautiful logo happen :)
+font name: HACKED
+font link: http://watchdogsfont.com
+font author: David Libeau
+font author site: https://davidlibeau.fr/
+
+
+icon designer: Yaroslav Samoilov
+icon designer link: /Yaosamo
+        
+{"bg":"transparent","icon-gradient-0":"#420F14","icon-gradient-1":"#C5545E","font":"#000000","slogan":"#141414"}
+      

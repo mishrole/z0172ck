@@ -1,7 +1,8 @@
-@media screen and (min-width:300px) and (max-width:800px) {
-    body{font-size:0.8em;}
-    sidebar{display:none;}
-    }
+@font-face {
+    font-family: Hacked;
+    src: url(https://hackedfont.com/HACKED.ttf);
+}
+
 * {
 	padding:0;
 	margin:0;
@@ -15,8 +16,13 @@ img {
     max-width: 100%;
   }
 
+iframe {
+    max-width: 100%;
+}
+
 body {
-	font-family: oswald, helvetica, arial, sans-serif;
+    /*font-family: oswald, helvetica, arial, sans-serif;*/      
+    font-family: Hacked;
 	background:url(pp.jpg), #000;
 	background-size: cover;
 	background-attachment:fixed;
@@ -120,7 +126,8 @@ header nav ul li a:hover {
 .principal article p {
 	margin-bottom: 20px;
 	line-height:24px;
-	font-family:helvetica, arial, sans-serif;
+    /*font-family:helvetica, arial, sans-serif;*/
+    font-family: Hacked;
 }
 
 .principal article .fecha {
@@ -166,7 +173,8 @@ header nav ul li a:hover {
 }
 
 .eckosc_syntax {
-    font-family: Consolas,'Liberation Mono',Courier,monospace;
+    /*font-family: Consolas,'Liberation Mono',Courier,monospace;*/
+    font-family: Hacked;
     font-size: 16px;
     font-weight: 400;
     line-height: 19px;
@@ -180,7 +188,8 @@ header nav ul li a:hover {
 }
 
 .post-contents pre code {
-    font-family: 'Source Code Pro',monospace,sans-serif;
+    /*font-family: 'Source Code Pro',monospace,sans-serif;*/
+    font-family: Hacked;
     font-weight: 500;
     line-height: 26px;
 }
@@ -273,7 +282,8 @@ footer.footer-blog .wrapper {
     #fff;
 }
 #mc-embedded-subscribe, #mce-EMAIL, .footer-blog-title, .pagination-button, .pagination-load-more, .pagination-numbers li .current, .pagination-numbers li a, .post-list .post-category, .post-list .post-read-more, .post.format-link .post-external-link, .single-header .post-category, .single-info-tags a, .single-upper-permalink, .single-upper-social .social-light-comments, .subscription-bar-form-input, .subscription-bar-form-submit, .subscription-bar-sub-title, .trending-bar-title, ul.page-numbers li .current, ul.page-numbers li a {
-    font-family: Montserrat,Arial,Sans-Serif;
+    /*font-family: Montserrat,Arial,Sans-Serif;*/
+    font-family: Hacked;
 }
 
 .footer-blog-social {
@@ -387,7 +397,8 @@ div#ez-toc-container p.ez-toc-title {
     #44494f;
 }
 .post-contents h1, .post-contents h2, .post-contents h3, .post-contents ol, .post-contents p, .post-contents ul {
-    font-family: Poppins,Arial,Sans-Serif;
+    /*font-family: Poppins,Arial,Sans-Serif;*/
+    font-family: Hacked;
 }
 .ez-toc-title, .ez-toc-title-toggle {
     display: table-cell;
