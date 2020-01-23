@@ -1051,7 +1051,7 @@ margin-bottom: 30px;
     height: 0;
     overflow: hidden;
     background: 
-    rgba(179,179,179,.4) url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA4NC40MyAxMjAuOTgiPjxkZWZzPjwvZGVmcz48cGF0aCBzdHlsZT0iZmlsbDojZmMwOyIgZD0iTTAsMTIxVjBIODQuNDNWMTIxSDBaTTcyLjIyLDEwOC44VjEyLjE4SDEyLjE3VjEwOC44SDcyLjIyWiIvPjwvc3ZnPgo=) no-repeat center center;
+    rgba(179,179,179,.4) url(Images/Erik172Logo.jpg) no-repeat center center;
         background-size: auto;
     background-size: 40px 58px;
 }
@@ -1061,7 +1061,7 @@ margin-bottom: 30px;
     position: relative;
     height: 0;
     overflow: hidden;
-    background: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA4NC40MyAxMjAuOTgiPjxkZWZzPjwvZGVmcz48cGF0aCBzdHlsZT0iZmlsbDojZmMwOyIgZD0iTTAsMTIxVjBIODQuNDNWMTIxSDBaTTcyLjIyLDEwOC44VjEyLjE4SDEyLjE3VjEwOC44SDcyLjIyWiIvPjwvc3ZnPgo=) center center no-repeat rgba(179,179,179,.4);
+    background: url(Images/Erik172Logo.jpg) center center no-repeat rgba(179,179,179,.4);
     background-size: 40px 58px;
 }
 
