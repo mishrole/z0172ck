@@ -40,3 +40,8 @@ ExpiresByType text/html "access plus 2592000 seconds"
 <FilesMatch "\.(js|css|ico|pdf|jpg|jpeg|png|gif|php)$">
 SetOutputFilter DEFLATE
 </FilesMatch>
+
+RewriteCond %{HTTP_HOST} ^(.*).z0172ck.me [NC]
+RewriteCond %{DOCUMENT_ROOT}/%1/ -d
+RewriteCond %1::%{REQUEST_URI} !^(.*?)::/1/?
+RewriteRule "^(.*)$" "%{DOCUMENT_ROOT}/%1/$1" [L]
