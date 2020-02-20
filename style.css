@@ -219,6 +219,11 @@ header nav ul li a:hover {
 	color: #f77a7a;
 }
 
+.windows a {
+    text-decoration: none;
+    color: #5089fc;
+}
+
 #readme {
 	text-decoration: none;
 	color: black;
@@ -1514,4 +1519,36 @@ background:#1a1e26;
 
 .eckosc_syntax_theme_dark .hljs-built_in, .eckosc_syntax_theme_dark .hljs-class .hljs-title {
     color: #eec273;
+}
+
+/*Tecla*/
+
+tecla 
+{
+    border-color: rgb(61, 61, 61);
+    background-color:rgb(27, 28, 29);
+    color:rgb(214, 211, 205);
+    box-shadow:rgba(0, 0, 0, 0.2) 0px 1px 0px,rgb(24, 26, 27) 0px 0px 0px 2px inset;
+    text-shadow:rgb(24, 26, 27) 0px 1px 0px;
+}
+tecla {
+    padding: 0.1em 0.6em;
+    border: 1px solid 
+    #CCC;
+        border-top-color: rgb(204, 204, 204);
+        border-right-color: rgb(204, 204, 204);
+        border-bottom-color: rgb(204, 204, 204);
+        border-left-color: rgb(204, 204, 204);
+    font-family: Arial,Helvetica,sans-serif;
+    background-color: #F7F7F7;
+    color: #333;
+    box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.2), 0px 0px 0px 2px #FFF inset;
+    border-radius: 3px;
+    display: inline-block;
+    margin: 0px 0.1em;
+    text-shadow: 0px 1px 0px #FFF;
+    line-height: 1.4;
+    white-space: nowrap;
+    font-size: 12px;
+    cursor: pointer;
 }
