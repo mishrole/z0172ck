@@ -123,6 +123,27 @@ header nav ul li a:hover {
 	margin-bottom: 20px;
 }
 
+.principal article ul {
+    margin: 35px 0 35px 7.5%;
+    font-size: 16px;
+    line-height: 30px;
+    position: relative;
+    margin: 25px 0;
+    color: #44494f;
+    margin: 0;
+    padding: 0;
+}
+
+.principal article ul li {
+    font-weight: 200;
+    margin-bottom: 10px;
+    padding-left: 1.5%;
+    color: #44494f;
+    box-sizing: border-box;font-size: 16px;
+    line-height: 15px;
+    text-decoration: none;
+}
+
 .principal article p {
 	margin-bottom: 20px;
 	line-height:24px;
@@ -1551,4 +1572,37 @@ tecla {
     white-space: nowrap;
     font-size: 12px;
     cursor: pointer;
+}
+
+/*Bottons*/
+
+.paginacion {
+	margin:20px 0;
+}
+
+.paginacion ul {
+	list-style:none;
+	text-align: center;
+}
+
+.paginacion ul li {
+	display:inline-block;
+	margin-right:10px;
+}
+
+.paginacion ul li a {
+	display:block;
+	padding:10px 20px;
+	color:#fff;
+	background:#202020;
+	text-decoration: none;
+}
+
+.paginacion ul li a:hover {
+	background:rgba(182, 59, 59, 0.801);
+}
+
+.paginacion ul li .active {
+	background:rgb(180, 59, 59);
+	font-weight:bold;
 }
