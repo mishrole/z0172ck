@@ -1606,3 +1606,35 @@ tecla {
 	background:rgb(180, 59, 59);
 	font-weight:bold;
 }
+
+.eckosc_status_message.eckosc_status_message_warn {
+    border-color: #d9cba4;
+    background: #f9f6f0;
+}
+.eckosc_status_message {
+    margin: 50px 0;
+    padding: 35px;
+    border: 1px solid #d9d9d9;
+        border-top-color: rgb(217, 217, 217);
+        border-right-color: rgb(217, 217, 217);
+        border-bottom-color: rgb(217, 217, 217);
+        border-left-color: rgb(217, 217, 217);
+    border-radius: 2px;
+    background: #f9f9f9;
+}
+
+.eckosc_status_message.eckosc_status_message_success {
+    border-color: #b6c89c;
+    background: #f3f7ed;
+}
+.eckosc_status_message {
+    margin: 50px 0;
+    padding: 35px;
+    border: 1px solid #d9d9d9;
+        border-top-color: rgb(217, 217, 217);
+        border-right-color: rgb(217, 217, 217);
+        border-bottom-color: rgb(217, 217, 217);
+        border-left-color: rgb(217, 217, 217);
+    border-radius: 2px;
+    background: #f9f9f9;
+}
