@@ -1638,3 +1638,8 @@ tecla {
     border-radius: 2px;
     background: #f9f9f9;
 }
+
+.eckosc_syntax_theme_dark .hljs-comment, .eckosc_syntax_theme_dark .hljs-quote {
+    font-style: italic;
+    color: #737c8c;
+}
