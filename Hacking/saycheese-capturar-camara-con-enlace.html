@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-156451356-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-156451356-1');
+    </script>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="icon" type="image/jpg" href="../Images/Erik172Logo.jpg" />
+
+    <meta name="author" content="Erik172">
+
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="../Images/style.css">
+
+    <title>Z0172CK</title>
+</head>
+<body>
+    <div id="particles-js"></div>
+
+    <div class="social">
+		<ul>
+            <li><a href="https://www.facebook.com/Z0172ck-102262774651238/" target="_blank" class="icon-facebook2"></a></li>
+            <li><a href="https://github.com/Erick172" target="_blank" class="icon-github"></a></li>
+			<!--<li><a href="http://www.twitter.com/falconmasters" target="_blank" class="icon-twitter"></a></li>
+			<li><a href="http://www.googleplus.com/falconmasters" target="_blank" class="icon-googleplus"></a></li>
+			<li><a href="http://www.pinterest.com/falconmasters" target="_blank" class="icon-pinterest"></a></li>-->
+			<li><a href="mailto:z0172ck@z0172ck.me" class="icon-mail"></a></li>
+		</ul>
+    </div>
+
+    <header>
+        <div class="menu">
+            <div class="navbar navbar-expand-lg navbar-dark bg-black fixed-top p-2">
+                <nav>
+                    <div class="container">
+                        <a class="navbar-brand" href="index.html">
+                            <img src="../Images/Erik172Logo.jpg" alt="Erik172 Z0172CK Logo" width="30" height="30"> Z0172CK 
+                            <span class="text-muted">V0.0.8</span> 
+                        </a>
+                    </div>
+                </nav>
+            </div>
+        </div>
+
+        <div class="submenu">
+            <div class="subcontenedor">
+                <nav>
+                    <ul id="sublist">
+                        <li><a href="../index.html">Inicio</a></li>
+                        <li><a href="../Windows/windows.html">Windows</a></li>
+                        <li><a href="../Linux/linux.html">Linux</a></li>
+                        <li><a href="hacking">Hacking</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+
+    <div class="texto">
+        <h2>
+            SayCheese: Capturar webcam a traves de un enlace
+        </h2>
+        <br>
+        <p>Z0172CK</p>
+    </div>
+
+    <div class="principal contenedor">
+        <article>
+            <p>
+                SayCheese es un script que permite capturar tomar fotos de la camara web del objetivo/victima usando un enlace generado por ngrok o serveo.
+            </p>
+
+            <p>
+                Toma fotos de la camara web desde el objetivo simplemente enviando un enlace malicioso.
+            </p>
+
+            <div class="eckosc eckosc_status_message eckosc_status_message_warn">
+                <div class="eckosc_status_message_title">
+                    <h3>
+                        <i class="fa fa-exclamation-triangle"></i>Advertencia!
+                    </h3>
+                </div>
+                <div class="eckosc_status_message_message">Z0172CK no ofrece ninguna garantia con este programa y no sera responsable de ningun dano directo o indirecto causado por el uso de esta herramienta. Z0172CK esta construido para fines educativos. Usalo bajo tu propio riesgo.</div>
+            </div>
+        </article>
+
+        <article>
+            <h2 class="titulo">¿Coma Funciona?</h2>
+            <br>
+
+            <p>
+                La herramienta genera una pagina HTTPS maliciosa utilizando los metodos Port Forwarding de Serveo o Ngrok, y un codigo JavaScript para llevar a cabo las solicitudes de camara utilizando <strong>MediaDevices.getUserMedia</strong>.
+            </p>
+
+            <p>
+                El metodo <strong>MediaDevices.getUserMedia()</strong> solicita al usuario permiso para usar una entrada de medios que produce un MediaStream con pistas que contienen los tipos de medios solicitados. Ese stream puede incluir, por ejemplo, una pista de video (producida por una fuente de video virtual o de hardware, como una camara, un dispositivo de grabacion de video, un servicio para compartir pantalla, etc.), una pista de audio (de manera similar, producida por un dispositivo fisico o fuente de audio virtual como un microfono, convertidor A/D o similar) y posiblemente otros tipos de pistas.
+            </p>
+
+            <p>
+                <a href="https://developer.mozilla.org/en-US/docs/Web/API/MediaDevices/getUserMedia">Ver mas sobre MediaDEvices.getUserMedia() aquí.</a>
+            </p>
+
+            <p>
+                Para convencer al objetivo de otorgar permisos para acceder a la camara, la pagina utiliza un codigo JavaScript creado por <a href="https://github.com/wybiral">https://github.com/wybiral</a> que convierte el favicon en una transmision de camara.
+            </p>
+
+        </article>
+
+        <article>
+            <h2 class="titulo">Como instalar SayCheese</h2>
+            <br>
+
+            <p>
+                Esta herramienta esta escrita en bash, asi que puedes utilizarlo en sistemas Linux:
+            </p>
+
+            <p>
+                <strong>Linux Y termux</strong>
+            </p>
+
+            <p>
+                Para Linux o Termux ejecutamos los siguientes comandos desde la terminal:
+            </p>
+
+            <pre class="eckosc_syntax eckosc_syntax_theme_dark hljs nginx">
+                <code>
+                    <span class="hljs-attribute">git</span> clone https://github.com/thelinuxchoice/saycheese
+                    cd saycheese
+                    bash saycheese.sh
+                </code>
+            </pre>
+
+            <img src="https://esgeeks.com/wp-content/uploads/2020/04/Instalar-SayCheese-Linux-Termux.png" alt="Instalar-SayCheese-Linux-Termux">
+            <br><br><br>
+
+            <p>
+                La interfaz principal de SayCheese nos proporciona las 2 opciones de reenvio de puertos: <strong>ngrok</strong> y <strong>serveo</strong>.
+            </p>
+
+            <img src="https://esgeeks.com/wp-content/uploads/2020/04/Ngrok-y-Serveo-SayCheese.png" alt="Ngrok-y-Serveo-SayCheese">
+            <br><br><br>
+
+            <p>
+                Elegimos una opcion (en mi ejemplo, elegire la opcion 2 -Ngrok) y se generara un enlace que debe ser enviado a la victima (no importa que este fuera de tu red).
+            </p>
+
+            <img src="https://esgeeks.com/wp-content/uploads/2020/04/Capturar-Webcam-smartphone-hacking.png" alt="Capturar-Webcam-smartphone-hacking">
+            <br><br><br>
+
+            <p>
+                Una vez, enviado a la victima. Esta sera redirigida a un sitio web donde se le solicite permisos de camara. Una vez aceptado, el programa empezara a capturar fotos/imagenes cada ciertos segundos. Las capturas se guardaran automaticamente en la carpeta de <strong>/saycheese</strong>.
+            </p>
+
+            <img src="https://esgeeks.com/wp-content/uploads/2020/04/Hacking-c%C3%A1mara-celular.png" alt="Hacking-c%C3%A1mara-celular">
+            <br><br><br>
+
+            <p>
+                ¿Quieres saber como hackear la camara del telefono de alguien? Al hackear las fotos de alguien, puedes espiar las fotos de la persona objetivo. Por supuesto, este programa es solo una introduccion a lo que se puede hacer mas adelante…Incluirlo por ejemplo, en un RAT.
+            </p>
+
+            <p>
+                Si estas interesado en hackear puedes aprenderlo y trabajar como hacker etico. Un hacker etico hackea otros PC, laptops o telefono Android por una buena razon. Las grandes empresas y organizaciones designan hackers por su seguridad. Sigue el camino del hacking etico y no intentes entrar en la vida privada de nadie, ya que podrias terminar siendo procesado o encarcelado.
+            </p>
+        </article>
+    </div>
+
+    <footer class="footer-blog">
+        <div class="wrapper">
+            <h2 class="footer-blog-title"> 
+                <a href="https://z0172ck.me" itemprop="headline">
+                    <img src="../Images/Erik172Logo.jpg" alt="Erik172" width="150" height="150">
+                </a>
+            </h2>
+
+            <p class="footer-blog-description">Hacemos las cosas faciles. Aprende con nosotros y sientete apasionado por la tecnologia e informatica. Z0172CK</p>
+        </div> 
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-latest.js"></script>
+    <script src="../particles.js" type="text/javascript"></script>
+    <script src="../app.js" type="text/javascript"></script>
+
+    <script>
+        $(document).ready(function(){
+ 
+        $('.ir-arriba').click(function(){
+            $('body, html').animate({
+                scrollTop: '0px'
+            }, 300);
+        });
+
+        $(window).scroll(function(){
+            if( $(this).scrollTop() > 0 ){
+                $('.ir-arriba').slideDown(300);
+            } else {
+               $('.ir-arriba').slideUp(300);
+            }
+        });
+
+       });
+    </script>
+</body>
+</html>
