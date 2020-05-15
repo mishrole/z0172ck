@@ -6,14 +6,14 @@
 
 body {
     /*font-family: oswald, helvetica, arial, sans-serif;*/      
-    /*font-family: Hacked;*/
+    font-family: Hacked;
 	background:url(pp.jpg), #000;
 	background-size: cover;
 	background-attachment:fixed;
 }
 
 * {
-	font-family: Hacked;
+	/*font-family: Hacked;*/
 	padding:0;
 	margin:0;
 	-webkit-box-sizing: border-box;
