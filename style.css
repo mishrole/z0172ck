@@ -1514,6 +1514,7 @@ background:#1a1e26;
 	}
  
     .social ul li .icon-facebook2 {background:#3b5998;} /* Establecemos los colores de cada red social, aprovechando su class */
+    .social ul li .icon-youtube {background-color: #ae181f;}
     .social ul li .icon-github {background: #1a1b1f;}
 	.social ul li .icon-twitter {background: #00abf0;}
 	.social ul li .icon-googleplus {background: #d95232;}
