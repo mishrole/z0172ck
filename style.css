@@ -1,6 +1,7 @@
 @font-face {
     font-family: Hacked;
-    src: url(https://hackedfont.com/HACKED.ttf);
+    /*src: url(https://hackedfont.com/HACKED.ttf);*/
+    src: url(Images/fonts/HACKED.ttf);
 }
 
 
