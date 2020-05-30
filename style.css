@@ -1648,3 +1648,33 @@ tecla {
     font-style: italic;
     color: #737c8c;
 }
+
+pre {
+    display: block;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    margin-bottom: 1.5em;
+    padding: 20px;
+    color: #e5e5e5;
+    background-color: #282828;
+    box-shadow: 0 5px 15px rgba(0,0,0,.35),inset 0 0 10px rgba(0,0,0,.65);
+    font-family: monospace;
+    font-size: .8em;
+    line-height: 1.2em;
+    white-space: pre;
+    overflow: auto;
+    overflow-wrap: normal;
+    overflow-x: auto;
+    overflow-y: hidden;
+    width: 100%;
+    max-width: 100%;
+}
+
+pre, code, kbd, samp {
+    font-family: Monaco,Menlo,Consolas,"Courier New",monospace;
+    letter-spacing: 0;
+}
